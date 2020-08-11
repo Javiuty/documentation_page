@@ -1,0 +1,51 @@
+/* COLORS */
+:root {
+    --color-gray: #4d4e53;
+}
+
+
+
+/* BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5rem;
+}
+
+/*LATERAL SECTION*/
+
+.lateral {
+    height: 100vh;
+    width: 20rem;
+    border: 2px solid var(--color-gray);
+
+    display: grid;
+    
+    
+}
+
+.lateral__box-main {
+    font-size: 1.5rem;
+    font-weight: 300;
+    border: 1px solid var(--color-gray);
+    border-right: 2px solid rgba(0, 22, 22, 0.4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lateral__box {
+    border: 1px solid rgba(0, 22, 22, 0.4);
+    border-right: 3px solid rgba(0, 22, 22, 0.4);
+}
+
