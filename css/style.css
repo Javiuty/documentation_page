@@ -39,6 +39,10 @@ h2 {
 .margin-top-small {
   margin-top: 2rem;
 }
+.decoration {
+  text-decoration: underline;
+  color: blue;
+}
 
 /*LATERAL SECTION*/
 
@@ -46,6 +50,7 @@ h2 {
   height: 100vh;
   width: 20rem;
   border: 2px solid var(--color-gray);
+  border-top: none;
   position: fixed;
 
   display: grid;
@@ -56,6 +61,7 @@ h2 {
   font-weight: 500;
   border: 1px solid var(--color-gray);
   border-right: 2px solid rgba(0, 22, 22, 0.4);
+  border-top: none;
   text-transform: capitalize;
   display: flex;
   justify-content: center;
@@ -83,7 +89,7 @@ h2 {
 .content__title {
   font-size: 1.7rem;
   font-weight: 500;
-  padding-bottom: 1rem;
+  padding-bottom: 1.7rem;
 }
 
 .content__paragraph {
@@ -109,4 +115,7 @@ h2 {
   padding-bottom: 1.5rem;
   margin-bottom: 2rem;
   padding-top: 2rem;
+  font-family: "sans-seriff";
+  font-size: 1.1rem;
+  font-weight: 100;
 }
