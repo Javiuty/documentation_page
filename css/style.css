@@ -17,6 +17,7 @@ html {
 body {
   font-family: "Arial";
   line-height: 1.5rem;
+  color: var(--color-gray);
 
   display: flex;
 }
@@ -26,9 +27,16 @@ a {
   color: inherit;
 }
 
+h2 {
+  color: black;
+}
+
 /* UTILITIES */
 .uppercase {
   text-transform: uppercase;
+}
+.margin-top-small {
+  margin-top: 2rem;
 }
 
 /*LATERAL SECTION*/
@@ -37,6 +45,7 @@ a {
   height: 100vh;
   width: 20rem;
   border: 2px solid var(--color-gray);
+  position: fixed;
 
   display: grid;
 }
@@ -55,6 +64,7 @@ a {
 .lateral__box {
   border: 1px solid rgba(0, 22, 22, 0.4);
   border-right: 3px solid rgba(0, 22, 22, 0.4);
+  color: var(--color-gray);
 
   display: flex;
   justify-content: flex-start;
@@ -64,8 +74,9 @@ a {
 
 /* CONTENT */
 .content {
-  width: 75%;
-  padding: 2rem;
+  width: 100%;
+  padding-left: 23rem;
+  padding-right: 5rem;
 }
 
 .content__title {
@@ -76,5 +87,17 @@ a {
 
 .content__paragraph {
   padding-left: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.content__list {
+  padding-left: 5em;
+}
+
+.content__item {
+  padding-bottom: 0.75rem;
+}
+
+.content__item:last-child {
+  padding-bottom: 1.8rem;
 }
