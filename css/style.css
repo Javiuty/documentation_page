@@ -60,7 +60,6 @@ h2 {
   font-size: 1.7rem;
   font-weight: 500;
   border: 1px solid var(--color-gray);
-  border-right: 2px solid rgba(0, 22, 22, 0.4);
   border-top: none;
   text-transform: capitalize;
   display: flex;
@@ -70,7 +69,7 @@ h2 {
 
 .lateral__box {
   border: 1px solid rgba(0, 22, 22, 0.4);
-  border-right: 3px solid rgba(0, 22, 22, 0.4);
+
   color: var(--color-gray);
 
   display: flex;
